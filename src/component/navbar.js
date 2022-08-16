@@ -1,13 +1,17 @@
 import React from 'react'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faHouseUser} from '@fortawesome/free-solid-svg-icons';
+
 
     export default function Navbar()  {
       return (
-            <>
+        <>
             
             <nav class="navbar bg-primary">
+
   <div class="container-fluid">
     <a class="navbar-brand" href="logo">
-      <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+      <FontAwesomeIcon icon={faHouseUser} />
       KIRAYEDAR
     </a>
   </div>
@@ -24,10 +28,6 @@ import React from 'react'
                         <a className="nav-link active" aria-current="page" href='home'>Home</a>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                        <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                     </div>
                 </div>
             </nav>
