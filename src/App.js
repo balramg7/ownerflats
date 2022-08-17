@@ -11,7 +11,6 @@ function App() {
                 <Card />
             </div>
             <div className="container">
-                abc
                 <Table />
             </div>
         </>
