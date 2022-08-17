@@ -6,9 +6,9 @@ import {faHouseUser} from '@fortawesome/free-solid-svg-icons';
     export default function Navbar()  {
       return (
         <>
-          <nav class="navbar bg-primary">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="logo">
+          <nav className="navbar bg-primary">
+            <div className="container-fluid">
+            <a className="navbar-brand" href="logo">
             <FontAwesomeIcon icon={faHouseUser} />
             KIRAYEDAR
             </a>
