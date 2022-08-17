@@ -6,17 +6,15 @@ import {faHouseUser} from '@fortawesome/free-solid-svg-icons';
     export default function Navbar()  {
       return (
         <>
-            
-            <nav class="navbar bg-primary">
-
-  <div class="container-fluid">
-    <a class="navbar-brand" href="logo">
-      <FontAwesomeIcon icon={faHouseUser} />
-      KIRAYEDAR
-    </a>
-  </div>
-</nav>
-            <nav className="navbar navbar-expand-lg bg-light">
+          <nav class="navbar bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="logo">
+            <FontAwesomeIcon icon={faHouseUser} />
+            KIRAYEDAR
+            </a>
+            </div>
+          </nav>
+          <nav className="navbar navbar-expand-lg bg-warning">
               <div className="container-fluid">
                 <a className="navbar-brand" href='dashboard'>Dashboard</a>
                 <button className="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
