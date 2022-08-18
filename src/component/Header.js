@@ -43,6 +43,7 @@ import { Link } from 'react-router-dom';
           Dashboard
         </div>
       </Link>
+      
                 <button className="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -52,6 +53,19 @@ import { Link } from 'react-router-dom';
                         <a className="nav-link active" aria-current="page" href='home'>Home</a>
                         </li>
                     </ul>
+                    <Link to="/info">
+        <div
+          style={{
+            position: "end",
+            top: "20px",
+            left: "700%",
+            color: "black",
+            fontSize: "16px",
+          }}
+        >
+          Flat Detail
+        </div>
+      </Link>
                     </div>
                 </div>
             </nav>
