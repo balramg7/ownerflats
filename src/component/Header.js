@@ -1,22 +1,48 @@
 import React from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHouseUser} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 
-    export default function Navbar()  {
+    export default function Header()  {
       return (
         <>
           <nav className="navbar bg-primary">
             <div className="container-fluid">
-            <a className="navbar-brand" href="logo">
-            <FontAwesomeIcon icon={faHouseUser} />
-            KIRAYEDAR
-            </a>
-            </div>
+              <a className="navbar-brand" href="logo">
+              <FontAwesomeIcon icon={faHouseUser} />
+              KIRAYEDAR
+              </a>
+              <Link to="/login">
+                <div
+                  style={{
+                  position: "end",
+                  top: "20px",
+                  left: "100%",
+                  color: "black",
+                  fontSize: "25px",
+                    }}>
+                    Login
+                </div>
+                </Link>
+              </div>
           </nav>
           <nav className="navbar navbar-expand-lg bg-warning">
               <div className="container-fluid">
-                <a className="navbar-brand" href='dashboard'>Dashboard</a>
+                
+                <Link to="/dashboard">
+        <div
+          style={{
+            position: "initial",
+            top: "20px",
+            left: "700%",
+            color: "black",
+            fontSize: "16px",
+          }}
+        >
+          Dashboard
+        </div>
+      </Link>
                 <button className="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
