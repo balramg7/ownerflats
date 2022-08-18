@@ -56,11 +56,13 @@ import { Link } from 'react-router-dom';
                     <Link to="/info">
         <div
           style={{
+            type: "button",
             position: "end",
             top: "20px",
             left: "700%",
             color: "black",
             fontSize: "16px",
+            
           }}
         >
           Flat Detail
