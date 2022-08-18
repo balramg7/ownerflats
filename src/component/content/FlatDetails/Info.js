@@ -4,7 +4,7 @@ import React from 'react'
 export default function Info() {
     return (
     <>
-        <div>
+        <div className='container-fluid d-flex justify-content-end'>
           <button className="btn btn-primary my-3">Edit</button>
         </div>
         <div>
@@ -35,17 +35,16 @@ export default function Info() {
             </tbody>
           </table>
         </div>
-
         <h5>Payment History</h5>
-        <button type="button" className="btn btn-primary"
-          style={{
-            position: "end",
-            margin: "13px",
-          }}>
+          <div className='container-fluid d-flex justify-content-end'>
+        
+        <button type="button" className="btn btn-primary mx-2">
         + Add a new payment
-      </button><button type="button" className="btn btn-primary">
+      </button>
+      <button type="button" className="btn btn-primary">
           View all
         </button>
+        </div>
         <div>
           <table className="table striped bordered hover">
             <thead style={{ backgroundColor: 'blue' }}>
@@ -65,15 +64,13 @@ export default function Info() {
           </table>
         </div>
         <h5> Rent History</h5>
-        <button type="button" className="btn btn-primary"
-          style={{
-            position: "end",
-            margin: "13px",
-          }}>
-        + Add a new payment
+        <div className='container-fluid d-flex justify-content-end'>
+        <button type="button" className="btn btn-primary mx-2">
+        + Add Result
       </button><button type="button" className="btn btn-primary">
           View all
         </button>
+        </div>
         <div>
           <table className="table striped bordered hover">
             <thead style={{ backgroundColor: 'blue' }}>
@@ -103,6 +100,7 @@ export default function Info() {
             </tbody>
           </table>
         </div>
+      
       </>
   )
 }
