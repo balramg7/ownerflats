@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Info() {
     return (
@@ -36,9 +37,23 @@ export default function Info() {
             </div>
             <h5>Payment History</h5>
             <div className="container-fluid d-flex justify-content-end">
-                <button type="button" className="btn btn-primary mx-2">
-                    + Add a new payment
-                </button>
+            <Link to="/addpayment">
+        <div
+          style={{
+            type: "btn btn-bold",
+            position: "end",
+            top: "20px",
+            left: "700%",
+            right:"100px",
+            color: "black",
+            fontSize: "16px",
+            backgroundColor: "blue",
+            margin: "4px"
+          }}
+        >
+          + Add a new payment
+        </div>
+      </Link>
                 <button type="button" className="btn btn-primary">
                     View all
                 </button>
