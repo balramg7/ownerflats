@@ -54,7 +54,7 @@ export default function Dashboard() {
             color: "black",
             fontSize: "16px",
             backgroundColor: "blue",
-            margin: "4px"
+            margin: "4px",
           }}
         >
           Add
