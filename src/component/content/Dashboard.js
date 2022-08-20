@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Dashboard() {
   return (
@@ -41,8 +42,24 @@ export default function Dashboard() {
       </tbody>
       </table>
       </div>
-      <div>
-        <button className="btn btn-primary my-3">ADD</button>
+      <div className="container-fluid d-flex justify-content-end">
+      <Link to="/addflat">
+        <div
+          style={{
+            type: "btn btn-bold",
+            position: "end",
+            top: "20px",
+            left: "700%",
+            right:"100px",
+            color: "black",
+            fontSize: "16px",
+            backgroundColor: "blue",
+            margin: "4px"
+          }}
+        >
+          Add
+        </div>
+      </Link>
       </div>
 
     </>

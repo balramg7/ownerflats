@@ -59,10 +59,10 @@ export default function Info() {
                 </button>
             </div>
             <div>
-                <table className="table striped bordered hover">
+                <table className="table table-bordered">
                     <thead style={{ backgroundColor: "blue" }}>
                         <tr>
-                            <th scope="col mx-3">Date</th>
+                            <th scope="col mx-3"colSpan="1">Date</th>
                             <th scope="col">Name</th>
                             <th scope="col">Amount Paid</th>
                         </tr>
@@ -81,12 +81,26 @@ export default function Info() {
                 <button type="button" className="btn btn-primary mx-2">
                     + Add Result
                 </button>
-                <button type="button" className="btn btn-primary">
-                    View all
-                </button>
+                <Link to="/addrenthistory">
+        <div
+          style={{
+            type: "btn btn-bold",
+            position: "end",
+            top: "20px",
+            left: "700%",
+            right:"100px",
+            color: "black",
+            fontSize: "16px",
+            backgroundColor: "blue",
+            margin: "4px"
+          }}
+        >
+          View All
+        </div>
+      </Link>
             </div>
             <div>
-                <table className="table striped bordered hover">
+                <table className="table table-bordered">
                     <thead style={{ backgroundColor: "blue" }}>
                         <tr>
                             <th scope="col mx-3">Date</th>

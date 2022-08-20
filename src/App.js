@@ -6,6 +6,8 @@ import Login from "./component/content/Authentication/Login";
 import Signup from "./component/content/Authentication/Signup";
 import Info from "./component/content/FlatDetails/Info";
 import AddPayment from "./component/content/FlatDetails/PaymentHistory'/AddPayment";
+import AddRentHistory from "./component/content/FlatDetails/RentHistory/AddRentHistory";
+import AddFlat from "./component/content/FlatDetails/AddFlat";
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/info" element={<Info />} />
                     <Route path="/addpayment" element={<AddPayment />} />
+                    <Route path="/addrenthistory" element={<AddRentHistory />} />
+                    <Route path="/addflat" element={<AddFlat/>}/>
                 </Routes>
             </BrowserRouter>
         </>
