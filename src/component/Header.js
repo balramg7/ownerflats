@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom';
                   left: "100%",
                   color: "black",
                   fontSize: "25px",
-                    }}>
+                  }}>
                     Login
                 </div>
                 </Link>
@@ -68,10 +68,11 @@ import { Link } from 'react-router-dom';
           Flat Detail
         </div>
       </Link>
-                    </div>
-                </div>
-            </nav>
-            </>
-        );          
-    }
+          </div>
+        </div>
+      </nav>
+    </>
+        
+  );          
+}
 
