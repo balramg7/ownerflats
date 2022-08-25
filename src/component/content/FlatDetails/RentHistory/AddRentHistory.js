@@ -3,7 +3,9 @@ import React from 'react'
 export default function AddRentHistory() {
     return (
         <>
+        <h3>Rent History</h3>
             <div className="container-fluid mr-3 d-flex my-3 flex-row-5 justify-content-end">
+                
                     <button type="button" className="btn btn-light mx-2">+ Add Result</button>
                     <button type="button" className="btn btn-primary">Close</button>
             </div>

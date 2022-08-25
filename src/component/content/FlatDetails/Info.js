@@ -78,9 +78,23 @@ export default function Info() {
             </div>
             <h5> Rent History</h5>
             <div className="container-fluid d-flex justify-content-end">
-                <button type="button" className="btn btn-primary mx-2">
-                    + Add Result
-                </button>
+            <Link to="/addrent">
+        <div
+          style={{
+            type: "btn btn-bold",
+            position: "end",
+            top: "20px",
+            left: "700%",
+            right:"100px",
+            color: "black",
+            fontSize: "16px",
+            backgroundColor: "blue",
+            margin: "4px"
+          }}
+        >
+          Add Result
+        </div>
+      </Link>
                 <Link to="/addrenthistory">
         <div
           style={{
