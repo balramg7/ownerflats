@@ -13,18 +13,6 @@ import { Link } from 'react-router-dom';
               <FontAwesomeIcon icon={faHouseUser} />
               KIRAYEDAR
               </a>
-              <Link to="/login">
-                <div
-                  style={{
-                  position: "end",
-                  top: "20px",
-                  left: "100%",
-                  color: "black",
-                  fontSize: "25px",
-                  }}>
-                    Login
-                </div>
-                </Link>
               </div>
           </nav>
           <nav className="navbar navbar-expand-lg bg-warning">
