@@ -8,17 +8,17 @@ export default function Info() {
                 <button className="btn btn-primary my-3">Edit</button>
             </div>
             <div>
-                <table className="table table-bordered">
-                    <thead style={{ backgroundColor: "blue" }}>
+                <table className="table table-bordered mt-3">
+                    <thead className="table-primary">
                         <tr>
-                            <th scope="col mx-3">Flat Name</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Contact</th>
-                            <th scope="col">Total Rent</th>
-                            <th scope="col">Due</th>
-                            <th scope="col">Electricity Consumed</th>
-                            <th scope="col">Security</th>
-                            <th scope="col">Shifted On</th>
+                            <th className="fw-bold" scope="col mx-3">Flat Name</th>
+                            <th className="fw-bold" scope="col">Address</th>
+                            <th className="fw-bold" scope="col">Contact</th>
+                            <th className="fw-bold" scope="col">Total Rent</th>
+                            <th className="fw-bold" scope="col">Due</th>
+                            <th className="fw-bold" scope="col">Electricity Consumed</th>
+                            <th className="fw-bold" scope="col">Security</th>
+                            <th className="fw-bold" scope="col">Shifted On</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,8 +59,8 @@ export default function Info() {
                 </button>
             </div>
             <div>
-                <table className="table table-bordered">
-                    <thead style={{ backgroundColor: "blue" }}>
+                <table className="table table-bordered ">
+                    <thead className="table-primary">
                         <tr>
                             <th scope="col mx-3"colSpan="1">Date</th>
                             <th scope="col">Name</th>
@@ -115,7 +115,7 @@ export default function Info() {
             </div>
             <div>
                 <table className="table table-bordered">
-                    <thead style={{ backgroundColor: "blue" }}>
+                    <thead className="table-primary">
                         <tr>
                             <th scope="col mx-3">Date</th>
                             <th scope="col">Flat No.</th>
