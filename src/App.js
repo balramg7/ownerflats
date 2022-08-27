@@ -21,9 +21,12 @@ function App() {
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/info" element={<Info />} />
                     <Route path="/addpayment" element={<AddPayment />} />
-                    <Route path="/addrenthistory" element={<AddRentHistory />} />
-                    <Route path="/addflat" element={<AddFlat/>}/>
-                    <Route path="/addrent" element={<AddRent/>}/>
+                    <Route
+                        path="/addrenthistory"
+                        element={<AddRentHistory />}
+                    />
+                    <Route path="/addflat" element={<AddFlat />} />
+                    <Route path="/addrent" element={<AddRent />} />
                 </Routes>
             </BrowserRouter>
         </>
