@@ -52,7 +52,7 @@ export default function Header() {
                                     aria-current="page"
                                     href="home"
                                 >
-                                    Home
+                                    <Link to="/Login">Home</Link>
                                 </a>
                             </li>
                         </ul>
