@@ -7,11 +7,18 @@ export default function Info() {
             <div className="container-fluid d-flex justify-content-end">
                 <button className="btn btn-primary my-3">Edit</button>
             </div>
-            <div>
-                <table className="table table-bordered mt-3">
+            <div className="col-auto">
+                <table
+                    className="table table-bordered mt-3 mx-5"
+                    style={{ width: "1400px" }}
+                >
                     <thead className="table-primary">
                         <tr>
-                            <th className="fw-bold" scope="col mx-3">
+                            <th
+                                className="fw-bold"
+                                scope="col mx-3"
+                                style={{ width: "8%" }}
+                            >
                                 Flat Name
                             </th>
                             <th className="fw-bold" scope="col">
@@ -74,7 +81,10 @@ export default function Info() {
                 </Link>
             </div>
             <div>
-                <table className="table table-bordered ">
+                <table
+                    className="table table-bordered mt-5 mx-4"
+                    style={{ width: "1400px" }}
+                >
                     <thead className="table-primary">
                         <tr>
                             <th scope="col mx-3" colSpan="1">
