@@ -9,6 +9,7 @@ import AddPayment from "./component/content/FlatDetails/PaymentHistory'/AddPayme
 import AddRentHistory from "./component/content/FlatDetails/RentHistory/AddRentHistory";
 import AddFlat from "./component/content/FlatDetails/AddFlat";
 import AddRent from "./component/content/FlatDetails/RentHistory/AddRent";
+import Home from "./component/home/Home";
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Header />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/dashboard" element={<Dashboard />} />

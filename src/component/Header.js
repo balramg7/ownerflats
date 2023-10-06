@@ -52,11 +52,11 @@ export default function Header() {
                                     aria-current="page"
                                     href="home"
                                 >
-                                    <Link to="/Login">Home</Link>
+                                    <Link to="/">Home</Link>
                                 </a>
                             </li>
                         </ul>
-                        <Link to="/info">
+                        <Link to="/login">
                             <div
                                 style={{
                                     type: "button",
@@ -66,7 +66,7 @@ export default function Header() {
                                     color: "black",
                                     fontSize: "16px",
                                 }}
-                            ></div>
+                            >Log In</div>
                         </Link>
                     </div>
                 </div>
