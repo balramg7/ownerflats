@@ -2,9 +2,14 @@ import React from "react";
 
 const Home = () => {
   return (
-    <>
-      <img src="\public\assets\flatPhoto1.jpg" alt="bg_img" />
-    </>
+    <img
+      src="/assets/flatPhoto1.jpg"
+      alt="flat"
+      style={{
+        width: "100%",
+        height: "89.8vh",
+      }}
+    />
   );
 };
 
